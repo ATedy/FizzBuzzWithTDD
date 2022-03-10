@@ -10,7 +10,7 @@ class FizzBuzzTest {
         assertAll("Lists",
                 () -> assertEquals("Fizz", buzzer.fizzBuzz(5)),
                 () -> assertEquals("Buzz", buzzer.fizzBuzz(7)),
-                () ->  assertEquals("Buzz", buzzer.fizzBuzz(9)),
+                () ->  assertEquals("Fizz", buzzer.fizzBuzz(9)),
                 () ->  assertEquals("Buzz", buzzer.fizzBuzz(8))
         );
 
