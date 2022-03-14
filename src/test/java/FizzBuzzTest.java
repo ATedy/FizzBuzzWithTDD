@@ -7,12 +7,12 @@ class FizzBuzzTest {
 
     @Test
     void fizzBuzz(){
-        assertAll("Lists",
-                () -> assertEquals("Fizz", buzzer.fizzBuzz(5)),
-                () -> assertEquals("Buzz", buzzer.fizzBuzz(7)),
-                () ->  assertEquals("Fizz", buzzer.fizzBuzz(9)),
-                () ->  assertEquals("Buzz", buzzer.fizzBuzz(8))
+        assertAll(
+                () -> assertEquals("FizzBuzz", buzzer.fizzBuzz(15)),
+                () -> assertEquals("Fizz", buzzer.fizzBuzz(9)),
+                () ->         assertEquals("Buzz", buzzer.fizzBuzz(10))
         );
+
 
     }
 }
