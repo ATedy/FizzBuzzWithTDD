@@ -1,5 +1,5 @@
 public class FizzBuzz {
-  public static String fizzBuzz(int num) {
+  public String fizzBuzz(int num) {
     StringBuilder fizzBuzzVal = new StringBuilder();
     if (num % 15== 0) {
       fizzBuzzVal.append("FizzBuzz");
@@ -13,7 +13,6 @@ public class FizzBuzz {
       //changing int to string
       fizzBuzzVal.append(num);
     }
-    System.out.println("The number is: " + fizzBuzzVal);
    return fizzBuzzVal.toString();
   }
 
