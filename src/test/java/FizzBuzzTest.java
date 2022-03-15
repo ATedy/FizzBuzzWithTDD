@@ -12,7 +12,7 @@ class FizzBuzzTest {
      FizzBuzz buzzer = new FizzBuzz();
     @DisplayName("Takes a number as an Input Return FizzBuzz, Fizz, Buzz or number itself as a String ")
     @Test
-    void checksWhatFizzBuzzReturns(){
+    void checksWhatFizzBuzzMethodReturns(){
         assertAll("Should Return Fizz, Buzz, or FizzBuzz",
                 () -> assertEquals("FizzBuzz", buzzer.fizzBuzz(15)),
                 () -> assertEquals("Fizz", buzzer.fizzBuzz(9)),
